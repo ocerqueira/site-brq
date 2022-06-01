@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(233, 233, 233, 255);
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: royalblue;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 10000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 1.6rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: black;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;
+}
+
+section {
+    max-width: max-content;
+    width: 90vw;
+    min-height: 90vh;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    height: 30vh;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+article.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+article.texto img {
+    width: 30vw;
+    margin-bottom: -10vh;
+}
+
+article.texto h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+article.texto h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.btn-contact {
+    padding: .6rem 1.5rem;
+    border-radius: 40px;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.btn-contact:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+
+/****** Inicio Footer ******/
+footer {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/****** Fim Footer ******/
+
